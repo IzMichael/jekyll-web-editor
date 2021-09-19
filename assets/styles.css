@@ -1,0 +1,19 @@
+* {
+    outline: 0;
+}
+
+.folder-closed::before {
+    content: '▼';
+    margin-right: 0.5rem;
+}
+
+.folder-open::before {
+    content: '▲';
+    margin-right: 0.5rem;
+}
+
+.file::before {
+    content: '🗎';
+    margin-right: 0.5rem;
+    font-weight: bold;
+}
